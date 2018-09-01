@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Primer Ejemplo JS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+</head>
+<body>
+    <div>
+        <main>
+            <h3>ADIVINA EL NUMERO</h3>
+            <p>Tenemos que seeleccionar un numero de  1 a 10 en 5 turnos </p>
+            <div>
+                Ingrese su numero
+                <input name="numero" id="idnumero" type="number" max="10">
+                <button type="submit" onclick="imprimerNumero()" >Enviar</button>
+            </div>
+            
+        </main>
+        <div class="pista">
+            <p id="imp_pista"></p>
+        </div>
+        <div class="resultados">
+            <p id="numero2"></p>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
