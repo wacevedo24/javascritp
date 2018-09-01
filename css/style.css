@@ -1,0 +1,15 @@
+html{
+    background-color: aquamarine;
+}
+.imag img{
+    border: solid;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+}
+
+.menu img{
+    width: 20%;
+    padding-right: 10px; 
+}
